@@ -1,0 +1,44 @@
+header{
+    padding: 10px 0 25px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainer{
+    width: 50%;
+    height: 100px;
+}
+
+.logoContainer img{
+    height: 80%;
+}
+
+.inputContainer{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.searchInput{
+    width: 70%;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.btnBuscar{
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #005659;
+    color: white;
+    border: none;
+}
+
+.btnBuscar:hover, .btnBuscar:focus{
+    cursor: pointer;
+    background-color: #063a3b;
+}
