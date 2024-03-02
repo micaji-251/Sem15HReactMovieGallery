@@ -1,8 +1,8 @@
-// import './App.css';
+
 import { Header } from './components/Header';
 import { MovieGrid } from './components/MovieGrid';
 
-function App() {
+export const App = () => {
   let pelis = [
     {
       img: 'https://image.tmdb.org/t/p/w300/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg',
@@ -90,4 +90,3 @@ function App() {
   )
 }
 
-export default App

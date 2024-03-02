@@ -9,7 +9,10 @@ export const Header = () => {
       </div>
 
       <div className='inputContainer'>
-        <input type="search" placeholder='Buscar Película' className='searchInput' />
+        <div className="inputSearch">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" placeholder='Buscar Película' className='searchInput' />
+        </div>
         <button className='btnBuscar'>Buscar</button>
       </div>
     </header>

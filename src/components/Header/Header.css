@@ -20,13 +20,26 @@ header{
     width: 50%;
     position: relative;
     float: left;
+    display: flex;
 }
-.searchInput{
+.inputSearch{
     width: 70%;
     border-radius: 25px;
     padding: 10px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
 
+.inputSearch i{
+    margin-right: 15px;
+    color:#9B9B9B;
+}
+
+.searchInput{
+    outline: none;
+    border: none;
+    width: 85%;
 }
 
 .btnBuscar{

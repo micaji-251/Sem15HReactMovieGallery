@@ -25,18 +25,24 @@
         justify-content: flex-end;
         padding: 18px;
         text-align: center;
+        cursor: pointer;
     }
     .posterDescription p{
         color: white;
     }
     
-    .movieTitle{
+    .movieBold{
         font-weight: 700;
-        font-size: 1.2rem;
+
+    }
+    .movieTitle{
+        font-size: 1.3rem;
+        padding-bottom: 5px;
     }
     
     .posterDescription p.movieDes{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height: 1.3;
     }
 
 

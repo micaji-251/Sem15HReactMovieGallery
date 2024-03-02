@@ -9,7 +9,7 @@ export const MovieGrid = ({pelis}) => {
         <main>
             <div className="grid">
               {pelis.map((peli)=>(
-                <Card key={peli.id} pelis={peli}/>
+                <Card key={peli.id} peli={peli}/>
               ))
               }
               
